@@ -1,0 +1,221 @@
+* {
+    margin: 0 0;
+    box-sizing: border-box;
+}
+
+.h1 {
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    width: 600px;
+    position: relative;
+    left: 150px;
+    font-size: 70px;
+    text-align: center;
+    line-height: 120px;
+    top: 120px;
+    color: white;
+}
+
+.header {
+    background-image: url(img/glavn.jpg);
+    height: 836px;
+    position: relative;
+}
+
+.divhistory {
+    width: 900px;
+    text-align: center;
+    position: relative;
+    top: 90px;
+    left: 280px;
+}
+
+.history {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 40px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.historyh2 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Podkova", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.historytext {
+    font-size: 25px;
+    line-height: 35px;
+    font-family: "Cormorant SC", serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.endhistory {
+    font-size: 35px;
+    line-height: 35px;
+    position: relative;
+    top: 5px;
+    font-family: "Cormorant SC", serif;
+    font-weight: 300;
+    font-style: normal;
+    width: 1200px;
+    position: relative;
+    top: 110px;
+    left: 150px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tatle1 {
+    background-image: url(img/titul2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 840px;
+}
+
+.tatle2 {
+    text-align: center;
+    position: relative;
+    top: 20px;
+    width: 100px;
+    line-height: 70px;
+    left: 650px;
+    font-size: 40px;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    background: none;
+}
+
+.wochet {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-size: 40px;
+    font-family: "Poiret One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.top10berserck {
+    text-align: center;
+    width: 500px;
+    border: solid;
+    box-shadow: -4px 4px black;
+    margin: 50px 800px;
+}
+
+.top10h3 {
+    font-size: 30px;
+}
+
+.top10text {
+    font-family: "Cormorant SC", serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 10px;
+}
+
+.top10h3onepach {
+    text-align: center;
+    width: 500px;
+    border: solid;
+    box-shadow: -4px 4px black;
+    margin-top: -800px;
+    margin-left: 150px; 
+}
+
+.top10blich {
+    text-align: center;
+    width: 500px;
+    border: solid;
+    box-shadow: -4px 4px black;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.top10dead {
+    text-align: center;
+    width: 500px;
+    border: solid;
+    box-shadow: -4px 4px black;
+    margin-left: 800px;
+    margin-top: -840px;
+}
+
+.top10naruto {
+    text-align: center;
+    width: 500px;
+    border: solid;
+    box-shadow: -4px 4px black;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.top10bibbop {
+    text-align: center;
+    width: 490px;
+    border: solid;
+    box-shadow: -4px 4px black;
+    margin-left: 800px;
+    margin-top: -860px;
+}
+
+.top10onepice {
+    text-align: center;
+    width: 500px;
+    border: solid;
+    box-shadow: -4px 4px black;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.top10demonblad {
+    margin-top: auto;
+    text-align: center;
+    width: 500px;
+    border: solid;
+    box-shadow: -4px 4px black;
+    margin-left: 800px;
+    margin-top: -860px;
+}
+
+.top10atakatit {
+    text-align: center;
+    width: 500px;
+    border: solid;
+    box-shadow: -4px 4px black;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+
+.top10saw {
+    text-align: center;
+    width: 500px;
+    border: solid;
+    box-shadow: -4px 4px black;
+    margin-left: 800px;
+    margin-top: -920px;
+}
+
+.finalh1 {
+    text-align: center;
+    margin-top: 40px;
+    line-height: 70px;
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.finalephoto {
+    margin-left: 570px;
+}

@@ -1,0 +1,75 @@
+html {
+    background-color: #FFFFF0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#808000;
+    font-weight: 500;
+    position: relative;
+    bottom: 60px;
+}
+
+.open {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    width: 400px;
+    margin-left: 300px;
+    color: #8B4513;
+    line-height: 50px;
+}
+
+.tac {
+    text-align: center;
+    color: #8B4513;
+    margin-left: 445px;
+    width: 500px;
+}
+
+td {
+    width: 100px;
+}
+
+#servis {
+    width: 700px;
+    margin-right: 100px;
+    font-size: 41px;
+    height: 300px;
+}
+
+main {
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.center {
+    text-align: center;
+    font-size: 35px;
+    background-color: #808000;
+    width: 300px;
+    height: 42px;
+    color: white;
+    margin-left: 580px;
+}
+
+.zak {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-align: center;
+    background-attachment: fixed;
+    width: 800px;
+    position: relative;
+    left: 330px;
+    font-size: 35px;
+    font-style: italic;
+    color: #808000;
+}

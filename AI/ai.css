@@ -1,0 +1,86 @@
+html {
+    background-image: url(img/fon.jpg);
+    background-size: cover;
+    background-repeat:initial;
+    margin: auto;
+    padding: auto;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.vstuplenie {
+    color: rgb(19, 15, 15);
+    background-color: aliceblue;
+    background: cornsilk;
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    width: 500px;
+    height: 200px;
+    margin: auto auto auto 470px
+}
+
+.applein {
+    color: #FFF8DC;
+    text-align: center;
+    font-size: 30px;
+    background-color: #D2B48C;
+    height: 70px;
+    width: 380px;
+    margin: auto auto auto 530px;
+    font-style: italic;
+}
+
+.aboutApIn {
+    color: #BC8F8F;
+    text-align: center;
+    font-size: 25px;
+    background-color: #FFE4B5;
+    width: 710px;
+    height: auto;
+    margin: auto auto auto 370px;
+}
+
+.focus {
+    color: #F4A460;
+    text-align: center;
+    font-size: 23px;
+    background-color: #FFFAF0;
+    width: 900px;
+    padding: 5px;
+    margin-left: 260px;
+}
+
+.tabl {
+    color: #A0522D;
+    background-color: #FFE4B5;
+    font-size: 28px;
+    font-style: italic;
+    text-align: center;
+    width: 300px;
+    height: auto;
+    margin: auto auto auto 570px;
+}
+
+.ggg {
+    color: #c97272;
+    text-align: center;
+    font-size: 23px;
+    background-color: #FFE4B5;
+    width: 900px;
+    padding: 5px;
+    margin-left: 260px;
+}
+
+
+

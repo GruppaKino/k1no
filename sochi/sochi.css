@@ -1,0 +1,62 @@
+html {
+    background-image: url(img/sochiFon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.history {
+    text-align: center;
+    color: #FAEBD7;
+    font-size: 35px;
+    background: #DDA0DD;
+    width: 300px;
+    height: auto;
+    margin-left: 600px;
+}
+
+.text {
+    color:indianred;
+    background-color: white;
+    margin-left: 100px;
+    width: 730px;
+    height: 250px;
+    font-size: 24px;
+}
+
+.text1 {
+    color:indianred;
+    background-color: white;
+    width: 730px;
+    height: 475px;
+    font-size: 24px;
+    text-align: center;
+    margin-left: 370px;
+}
+
+ol {
+    text-align: left;
+}
+
+.masha {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+.vova {
+    text-align: center;
+}
+

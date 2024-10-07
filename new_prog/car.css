@@ -1,0 +1,26 @@
+.ssh {
+    text-align: center;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgoldenrod;
+}
+
+.spisok {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 500;
+    font-size: large;
+}
+
+.opisanie {
+    text-align: justify;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.photo {
+    display: block;
+    margin-left: 450px;
+    margin-right: 450px;
+}
