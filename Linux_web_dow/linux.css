@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+SC:wght@300;400;500;600;700&family=Pacifico&family=Tenor+Sans&family=Xanh+Mono:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Cormorant+SC:wght@300;400;500;600;700&family=Jura:wght@300..700&family=Pacifico&family=Tenor+Sans&family=Xanh+Mono:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.conteiner {
+    margin: 0 auto;
+    padding: auto;
+}
+body {
+    background-color: aquamarine;
+}
+
+header {
+    background-color: blueviolet;
+}
+.menu {
+    width: 1170px;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.nav_tabl {
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    padding: 20px 0;
+}
+.nav_tabl li {
+    list-style-type: none;
+}
+.nav_tabl a:link {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    padding: 20px;
+}
+.nav_tabl a:link:hover {
+    background-color:khaki;
+    border-radius: 5px;
+}
+
+
+.aboutus {
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: aliceblue;
+    margin: 20px;
+}
+.textaboutus {
+    padding: 30px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 25px;
+    font-family: "Tenor Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.textaboutus ul {
+    padding: 20px 0;
+}
+.textaboutus li {
+    list-style-type: none;
+}
+
+
+#distribs {
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: aliceblue;
+    width: 1050px;
+    padding: auto;
+}
+.distrib {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.linuxnimt {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+    margin: 0 auto;
+
+}
+.linuxnimt h3 {
+    font-size: 30px;
+    color: coral;
+    padding: 10px 0;
+    letter-spacing: 10px;
+    font-family: "Martian Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.linuxnimt p {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 40px;
+    padding: 10px 0;
+    width: 1000px;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.deepin  {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.deepin h3 {
+    font-size: 30px;
+    color: coral;
+    padding: 10px 0;
+    letter-spacing: 10px;
+    font-family: "Martian Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.deepin p {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 40px;
+    padding: 10px 0;
+    width: 1000px;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.ubuntu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.ubuntu h3 {
+    font-size: 30px;
+    color: coral;
+    padding: 10px 0;
+    letter-spacing: 10px;
+    font-family: "Martian Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.ubuntu p {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 40px;
+    padding: 10px 0;
+    width: 1000px;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.manjaro {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.manjaro h3 {
+    font-size: 30px;
+    color: coral;
+    padding: 10px 0;
+    letter-spacing: 10px;
+    font-family: "Martian Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.manjaro p {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 40px;
+    padding: 10px 0;
+    width: 1000px;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.lubuntu {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.lubuntu h3 {
+    font-size: 30px;
+    color: coral;
+    padding: 10px 0;
+    letter-spacing: 10px;
+    font-family: "Martian Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.lubuntu p {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 40px;
+    padding: 10px 0;
+    width: 1000px;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.elementary {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.elementary h3 {
+    font-size: 30px;
+    color: coral;
+    padding: 10px 0;
+    letter-spacing: 10px;
+    font-family: "Martian Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.elementary p {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 40px;
+    padding: 10px 0;
+    width: 1000px;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.debian {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.debian h3 {
+    font-size: 30px;
+    color: coral;
+    padding: 10px 0;
+    letter-spacing: 10px;
+    font-family: "Martian Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.debian p {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 40px;
+    padding: 10px 0;
+    width: 1000px;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.mxlinux {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.mxlinux h3 {
+    font-size: 30px;
+    color: coral;
+    padding: 10px 0;
+    letter-spacing: 10px;
+    font-family: "Martian Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.mxlinux p {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 40px;
+    padding: 10px 0;
+    width: 1000px;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.solus {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.solus h3 {
+    font-size: 30px;
+    color: coral;
+    padding: 10px 0;
+    letter-spacing: 10px;
+    font-family: "Martian Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.solus p {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 40px;
+    padding: 10px 0;
+    width: 1000px;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.archlinux {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px 0;
+}
+.archlinux h3 {
+    font-size: 30px;
+    color: coral;
+    padding: 10px 0;
+    letter-spacing: 10px;
+    font-family: "Martian Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.archlinux p {
+    font-size: 25px;
+    text-align: justify;
+    line-height: 40px;
+    padding: 10px 0;
+    width: 1000px;
+    font-family: "Jura", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.tablfordownlouds {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.tablfordownlouds table{
+    margin: 20px auto;
+    width: 600px;
+    background-color: aliceblue;
+}
+.tablfordownlouds td {
+    text-align: center;
+}
+a:visited {
+    color: black;
+}
+
+
+
+
