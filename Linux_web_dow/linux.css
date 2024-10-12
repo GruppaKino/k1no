@@ -354,23 +354,85 @@ header {
     font-style: normal;
 }
 
+
 .tablfordownlouds {
-    width: 1000px;
     margin: 0 auto;
     padding: 10px;
 }
 .tablfordownlouds table{
-    margin: 20px auto;
     width: 600px;
     background-color: aliceblue;
+    margin: 0 auto;
 }
 .tablfordownlouds td {
     text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+.tablfordownlouds th {
+    font-family: "Martian Mono", monospace;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    color: darkred;
+    font-size: larger;
 }
 a:visited {
     color: black;
 }
+.tablfordownlouds a:link {
+    text-decoration: none;
+    background-color:lemonchiffon;
+    padding: 10px;
+    color: red;
+}
+.tablfordownlouds a:link:hover {
+    background-color: cyan;
+    border-radius: 5px;
+}
 
+
+.contact {
+    margin: 0 auto;
+    background-color: aliceblue;
+    width: 500px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.contactforme {
+    text-align: center;
+}
+.contactforme h3 {
+    font-size: 35px;
+    padding: 10px;
+}
+.contactforme img {
+    border-radius: 100px;
+    padding: 10px;
+}
+.contactforme p {
+    font-size: 25px;
+    width: 350px;
+    padding: 10px;
+}
+
+.contactmore {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.contactmore li {
+    list-style-type: none;
+    text-align: center;
+}
+.contactmore a:link {
+    text-decoration: none;
+    color: black;
+}
 
 
 
