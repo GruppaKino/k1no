@@ -20,7 +20,7 @@ main {
 }
 .nav_flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 30px;
 }
@@ -52,7 +52,7 @@ main {
 }
 .prewrw_flex {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 30px;
 }
@@ -73,4 +73,64 @@ main {
     font-size: 18px;
     line-height: 27px;
 }
+
+.rbworkex {
+    margin: 0 auto;
+    background-color: black;
+}
+
+.text_rbworkex {
+    padding: 20px 165px;
+}
+.text_rbworkex h4{
+    color: #8491A0;
+    text-transform: uppercase;
+}
+.text_rbworkex h2 {
+    font-size: 55px;
+    line-height: 66px;
+    font-weight: 700;
+    color: white;
+}
+
+.ul_rbworkex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rbworkex_tab1, .rbworkex_tab2, .rbworkex_tab3 {
+    color: white;
+    text-align: left;
+}
+.rbworkex_tab1 h2{
+    font-size: 117px;
+    color: #8491A0;
+    line-height: 140px;
+}
+.rbworkex_tab1 p {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+.rbworkex_tab2 h2 {
+    font-size: 117px;
+    color: #8491A0;
+    line-height: 140px;
+}
+.rbworkex_tab2 p {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+.rbworkex_tab3 h2 {
+    font-size: 117px;
+    color: #8491A0;
+    line-height: 140px;
+}
+.rbworkex_tab3 p {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
 
