@@ -1,0 +1,136 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    margin: 0 auto;
+}
+main {
+    margin: 0 auto;
+    border: 4px solid red;
+}
+.conteiner {
+    margin: 0 auto;
+}
+
+.headernav {
+    background-color: black;
+}
+.nav_flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.navul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style-type: none;
+}
+.navul li {
+    padding: 0 20px;
+}
+.navul a:link {
+    text-decoration: none;
+    padding: 20px;
+    color: white;
+}
+.navul a:link:hover {
+    background-color: #5221E6;
+    color: aliceblue;
+}
+.conteiner h4 {
+    color: white;
+    font-size: large;
+}
+
+#prewrw {
+    background-color: black;
+}
+.prewrw_flex {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 30px;
+}
+.prewrwtext {
+    color: white;
+    padding: 20px;
+}
+.prewrw_flex img{
+    width: 450px;
+}
+.prewrwtext h1 {
+    font-size: 75px;
+    width: 670px;
+    text-align: left;
+    line-height: 90px;
+}
+.prewrwtext p {
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.rbworkex {
+    margin: 0 auto;
+    background-color: black;
+}
+
+.text_rbworkex {
+    padding: 20px 165px;
+}
+.text_rbworkex h4{
+    color: #8491A0;
+    text-transform: uppercase;
+}
+.text_rbworkex h2 {
+    font-size: 55px;
+    line-height: 66px;
+    font-weight: 700;
+    color: white;
+}
+
+.ul_rbworkex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rbworkex_tab1, .rbworkex_tab2, .rbworkex_tab3 {
+    color: white;
+    text-align: left;
+}
+.rbworkex_tab1 h2{
+    font-size: 117px;
+    color: #8491A0;
+    line-height: 140px;
+}
+.rbworkex_tab1 p {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+.rbworkex_tab2 h2 {
+    font-size: 117px;
+    color: #8491A0;
+    line-height: 140px;
+}
+.rbworkex_tab2 p {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+.rbworkex_tab3 h2 {
+    font-size: 117px;
+    color: #8491A0;
+    line-height: 140px;
+}
+.rbworkex_tab3 p {
+    font-size: 24px;
+    font-weight: 700;
+    padding: 5px 0;
+}
+
+
