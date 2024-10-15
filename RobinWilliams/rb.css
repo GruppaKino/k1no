@@ -133,4 +133,154 @@ main {
     padding: 5px 0;
 }
 
+.philosophy {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.text_filosophy {
+    text-align: left;
+    padding: 100px;
+    background-color: #FFF3E4;
+}
+.text_filosophy h2 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55px;
+    color: #181823;
+    padding: 24px 0;
+}
+.text_filosophy p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5B6876;
+    padding: 20px 0;
+}
+#textendinphilosophy {
+    margin: 100px 0 0;
+    color: #8491A0;
+}
+
+.skill {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: black;
+}
+.skill_text {
+    text-align: left;
+}
+.skill_text h2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 66px;
+}
+.skill_text p {
+    color: #8491A0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    width: 300px;
+}
+
+.tabl_skill {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    width: 800px;
+}
+.colon_one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+}
+.colon_two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px;
+}
+
+.one_colum_skill img, h3, p {
+    padding: 5px 0;
+}
+.one_colum_skill h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.one_colum_skill p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8491A0;
+}
+.two_colum_skill img, h3, p {
+    padding: 5px 0;
+}
+.two_colum_skill h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.two_colum_skill p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8491A0;
+}
+
+.one_colum_skill_one img, h3, p {
+    padding: 5px 0;
+}
+.one_colum_skill_one h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.one_colum_skill_one p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8491A0;
+}
+.one_colum_skill_one img, h3, p {
+    padding: 5px 0;
+}
+.one_colum_skill_one h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.one_colum_skill_one p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8491A0;
+}
+.two_colum_skill_two img, h3, p {
+    padding: 5px 0;
+}
+.two_colum_skill_two h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+.two_colum_skill_two p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #8491A0;
+}
+
+
+
 
