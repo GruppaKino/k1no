@@ -293,20 +293,19 @@ main {
 
 
 .myprog {
-    border: 4px solid yellow;
     margin: 0 auto;
     padding: 100px;
+    background-color: black;
+    color: white;
 }
 .myprog_tabl {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .myproge_tabl_one {
     display: flex;
     flex-direction: column;
-    border: 4px solid #5221E6;
 }
 .mpj_one p {
     font-weight: 700;
@@ -319,11 +318,14 @@ main {
     line-height: 66px;
 }
 .mpj_one {
-    text-align: center;
+    text-align: left;
+    padding: 50px 0;
 }
 .mpj_two {
     text-align: left;
-    padding: 10px;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #181823;
 }
 .mpj_two h4 {
     font-weight: 700;
@@ -334,8 +336,113 @@ main {
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
-    width: 550px;
+    width: 556px;
+    color: #8491A0;
 }
+.mpj_three {
+    text-align: left;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #181823;
+}
+.mpj_three h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+.mpj_three p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    width: 556px;
+    color: #8491A0;
+}
+
+.myproge_tabl_two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mpj_fore {
+    text-align: left;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #181823;
+}
+.mpj_fore h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+.mpj_fore p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    width: 555px;
+    color: #8491A0;
+}
+.mpj_five {
+    text-align: left;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #181823;
+}
+.mpj_five h4 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+.mpj_five p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    width: 555px;
+    color: #8491A0;
+}
+.mpj_six {
+    margin: 100px auto;
+    border: 2px solid #5221E6;
+    padding: 27px;
+}
+
+
+.instagram {
+    border: 4px solid yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.instagram_tab1 {
+    text-align: left;
+    margin: 0 auto;
+}
+.instagram_tab1 h2 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 66px;
+    color: #181823;
+    letter-spacing: 1px;
+    padding: 50px 0;
+}
+.instagram_tab1 p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    width: 550px;
+    letter-spacing: 1px;
+    padding: 10px 0;
+    color: #5B6876;
+}
+#instagram_end_text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #181823;
+    letter-spacing: 1px;
+    padding: 100px 0;
+    text-decoration: underline;
+}
+
 
 
 
