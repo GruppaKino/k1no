@@ -407,7 +407,6 @@ main {
 
 
 .instagram {
-    border: 4px solid yellow;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -444,6 +443,224 @@ main {
 }
 
 
+.drib {
+    background-color: #000000;
+}
+.drib1 {
+    text-align: left;
+    padding: 100px;
+}
+.drib1 h3 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55px;
+    margin: 0 406px 24px 0;
+    color: #FFFFFF;
+}
+#drib1_text_midl {
+    color: #8491A0;
+    width: 636px;
+    margin-bottom: 40px;
+    font-size: 18px;
+    line-height: 27px;
+}
+#drib1_text_end {
+    color: white;
+    border-bottom: 1px solid #8491A0;
+    margin-bottom: 120px;
+    width: 150px;
+}
+
+
+.peoplesay {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+    padding-top: 120px;
+}
+.peoplesay_text {
+    text-align: left;
+}
+.peoplesay_text h3 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 66px;
+    margin-bottom: 24px ;
+    color: #FFFFFF;
+    width: 500px;
+}
+#peoplesay_mid {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #8491A0;
+    width: 500px;
+    margin-bottom: 40px;
+} 
+#peoplesay_end {
+    border-bottom: 1px solid #8491A0;
+    width: 125px;
+    color: #FFFFFF;
+}
+
+.peoplesay_colom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.peoplesay_colom1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.peoplesay_colom2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.peoplesay_colom3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.peoplesay_colom1_text {
+    margin: 0 auto;
+    text-align: left;
+    padding: 64px;
+    border: 1px solid #5B6876;
+    margin-bottom: 120px;
+}
+#peoplesay_colom1_text_start {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    width: 506px;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+}
+#peoplesay_colom1_text_midle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 4px;
+    color: #5B6876;
+}
+#peoplesay_colom1_text_end {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5B6876;
+}
+
+.peoplesay_colom2_text {
+    margin: 0 auto;
+    text-align: left;
+    padding: 64px;
+    border: 1px solid #5B6876;
+    margin-bottom: 120px;
+}
+#peoplesay_colom2_text_start {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    width: 506px;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+}
+#peoplesay_colom2_text_midle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 4px;
+    color: #5B6876
+}
+#peoplesay_colom2_text_end {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5B6876;
+}
+
+.peoplesay_colom3_text {
+    margin: 0 auto;
+    text-align: left;
+    padding: 64px;
+    border: 1px solid #5B6876;
+    margin-bottom: 120px;
+}
+#peoplesay_colom3_text_start {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    width: 506px;
+    color: #FFFFFF;
+    margin-bottom: 64px;
+}
+#peoplesay_colom3_text_midle {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 4px;
+    color: #5B6876
+}
+#peoplesay_colom3_text_end {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #5B6876;
+}
+
+
+.photography {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 50px;
+    border: 4px solid yellow;
+    background-color: #000000;
+}
+.photography_text {
+    text-align: left;
+}
+.photography_text h3 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.photography_text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #8491A0;
+    width: 588px;
+    margin-bottom: 64px;
+}
+
+
+.photography_menu ul {
+    display: flex;
+    justify-content: space-between;
+    width: 490px;
+    list-style-type: none;
+    padding-right: 24px;
+    margin-bottom: 40px;
+}
+.photography_menu a:link {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    border: 1px solid #5221E6;
+    padding: 12px 16px;
+    color: white;
+}
+.photography_menu a:link:hover {
+    background-color: #5221E6;
+}
 
 
 
